@@ -38,7 +38,7 @@ const Header = () => {
               get early access.
             </h2>
             <HeaderForm data-netlify="true" method="POST" onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
+              <HeaderInput type="text" name="email" placeholder="Your email" />
               <SubmitButton type="submit">Subscribe Now</SubmitButton>
             </HeaderForm>
             <FormSubtitle>
