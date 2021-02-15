@@ -16,6 +16,7 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.3.24",
     "gatsby-transformer-sharp": "^2.5.13",
+    "node-fetch": "^2.6.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
@@ -23,6 +24,7 @@
     "react-feather": "^2.0.8",
     "react-helmet": "^6.1.0",
     "react-scrollspy": "^3.4.3",
+    "stripe": "^8.135.0",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {

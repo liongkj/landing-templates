@@ -29,17 +29,17 @@ const Header = () => {
           <HeaderTextGroup>
             <Subtitle>Personal Finance</Subtitle>
             <h1>
-              All your money,
+              Start teaching,
               <br />
-              one account
+              Start collecting subscriptions
             </h1>
             <h2>
               We're building next generation personal finance tools. Sign up to
               get early access.
             </h2>
-            <HeaderForm onSubmit={handleSubmit}>
+            <HeaderForm data-netlify="true" method="POST" onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
+              <SubmitButton type="submit">Subscribe Now</SubmitButton>
             </HeaderForm>
             <FormSubtitle>
               Already have a beta account?{" "}
@@ -160,7 +160,7 @@ const HeaderInput = styled.input`
   }
 `
 
-const HeaderButton = styled.button`
+const SubmitButton = styled.button`
   font-weight: 500;
   font-size: 14px;
   color: white;
