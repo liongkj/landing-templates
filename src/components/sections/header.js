@@ -37,7 +37,7 @@ const Header = () => {
               We're building next generation personal finance tools. Sign up to
               get early access.
             </h2>
-            <HeaderForm data-netlify="true" method="POST" onSubmit={handleSubmit}>
+            <HeaderForm name="cta" data-netlify="true" method="POST" onSubmit={handleSubmit}>
               <HeaderInput type="text" name="email" placeholder="Your email" />
               <SubmitButton type="submit">Subscribe Now</SubmitButton>
             </HeaderForm>
