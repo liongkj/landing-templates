@@ -18,9 +18,6 @@ const Header = () => {
     }
   `)
 
-  const handleSubmit = event => {
-    event.preventDefault()
-  }
 
   return (
     <HeaderWrapper id="top">
@@ -37,7 +34,7 @@ const Header = () => {
               We're building next generation personal finance tools. Sign up to
               get early access.
             </h2>
-            <HeaderForm data-netlify-recaptcha="true" name="cta" netlify method="POST" onSubmit={handleSubmit}>
+            <HeaderForm netlify name="cta" data-netlify-recaptcha="true" method="POST">
               <HeaderInput type="text" name="email" placeholder="Your email" />
               <SubmitButton type="submit">Subscribe Now</SubmitButton>
               <div data-netlify-recaptcha="true"></div>
