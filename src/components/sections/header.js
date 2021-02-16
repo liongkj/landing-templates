@@ -35,6 +35,7 @@ const Header = () => {
               get early access.
             </h2>
             <HeaderForm netlify name="cta" data-netlify-recaptcha="true" method="POST">
+              <input type="hidden" name="form-name" value="contact" />
               <HeaderInput type="text" name="email" placeholder="Your email" />
               <SubmitButton type="submit">Subscribe Now</SubmitButton>
               <div data-netlify-recaptcha="true"></div>
