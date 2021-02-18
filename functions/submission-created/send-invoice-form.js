@@ -21,16 +21,20 @@ exports.handler = async (event, context) => {
         items: [{ price: STRIPE_DEFAULT_PRICE_PLAN }],
         collection_method: 'send_invoice',
         days_until_due: 30,
-    }).then((invoice) => {
-        stripe.invoices.sendInvoice(invoice.id, function (err, invoice) {
+    }).then((subscription) => {
+        // console.log(subscription)
+        stripe.invoices.sendInvoice(subscription.latest_invoice, function (err, invoice) {
             // asynchronously called
-        });
-    }).then(() => {
-        return {
-            statusCode: 200,
-            body: JSON.stringify({ message: "Email will be sent shortly" })
-        }
+            // console.log(invoice);
+            // console.log(err)
+        })
     })
+        .then(() => {
+            return {
+                statusCode: 200,
+                body: JSON.stringify({ message: "Email will be sent shortly" })
+            }
+        })
     // .catch((err) => {
     //     console.log(JSON.stringify(err))
     //     return {
