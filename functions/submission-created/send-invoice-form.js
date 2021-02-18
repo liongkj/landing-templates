@@ -21,6 +21,10 @@ exports.handler = async (event, context) => {
         items: [{ price: STRIPE_DEFAULT_PRICE_PLAN }],
         collection_method: 'send_invoice',
         days_until_due: 30,
+    }).then((invoice) => {
+        stripe.invoices.sendInvoice(invoice.id, function (err, invoice) {
+            // asynchronously called
+        });
     }).then(() => {
         return {
             statusCode: 200,
