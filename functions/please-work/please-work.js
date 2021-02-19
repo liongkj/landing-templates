@@ -5,7 +5,7 @@ exports.handler = async (event, context) => {
     if (event.httpMethod !== 'POST') {
         return { statusCode: 405, body: 'Method Not Allowed', headers: { 'Allow': 'POST' } }
     }
-    let payload = JSON.parse(event.body).payload
+    let payload = JSON.parse(event.body)
     console.log(payload);
     const { email } = payload;
     console.log(email);
