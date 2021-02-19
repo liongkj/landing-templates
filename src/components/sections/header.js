@@ -36,7 +36,12 @@ const Header = () => {
             </h2>
             <HeaderForm netlify name="cta" data-netlify-recaptcha="true" method="POST">
               <input type="hidden" name="form-name" value="cta" />
-              <HeaderInput type="text" name="email" placeholder="Your email" />
+              <HeaderInput type="email"
+                placeholder="Your email"
+                name="email"
+                id="email"
+                required placeholder="Your email" />
+
               <SubmitButton type="submit">Subscribe Now</SubmitButton>
               <div data-netlify-recaptcha="true"></div>
             </HeaderForm>
