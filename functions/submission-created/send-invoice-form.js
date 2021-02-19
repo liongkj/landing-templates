@@ -4,9 +4,9 @@ exports.handler = async (event, context) => {
     if (event.httpMethod !== 'POST') {
         return { statusCode: 405, body: 'Method Not Allowed', headers: { 'Allow': 'POST' } }
     }
-    const data = JSON.parse(event.body).payload
+    const payload = JSON.parse(event.body).payload
     // console.log(JSON.stringify(SENDGRID_TEMPLATE_ID))
-    const { email } = data
+    const { email } = payload.data
     console.log(email)
     const stripe = require("stripe")(STRIPE_SECRET_KEY)
 
