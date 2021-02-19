@@ -1,60 +1,9 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d143c579-924c-4e3e-9b87-2d7659c2d64b/deploy-status)](https://app.netlify.com/sites/landing-cta/deploys)
 ## ☁️ A simple one page marketing site starter for SaaS companies and indie hackers.
 
-[Live Demo: https://gatsby-starter-saas-marketing.netlify.com/ ](https://gatsby-starter-saas-marketing.netlify.com/)
-
-**If you find this starter helpful follow me on <a href="https://www.indiehackers.com/keeg" target="blank">Indie Hackers</a>.**
+[Live Demo: https://landing-cta.netlify.app/ ](https://landing-cta.netlify.app/)
 
 <img src="src/images/gatsby-starter-saas-marketing-full-page.png?raw=true" width="600" alt="Gatsby Starter Saas Marketing Full Screen Image"/>
-
-### Getting started 🍻
-
-install Gatsby CLI - [more info](https://www.gatsbyjs.org/tutorial/part-zero/)
-
-```sh
-npm install -g gatsby-cli
-```
-
-or
-
-```sh
-yarn global add gatsby-cli
-```
-
-install the starter locally:
-
-```sh
-gatsby new gatsby-starter-saas-marketing https://github.com/keegn/gatsby-starter-saas-marketing
-```
-
-install dependencies:
-
-```sh
-yarn install
-```
-
-start the development server:
-
-```sh
-gatsby develop
-```
-
-At the project root, compile your application for deployment:
-
-```sh
-gatsby build
-```
-
-Clean the cache to fix certain errors - run the clean command before starting the dev server:
-
-```sh
-gatsby clean
-```
-
-At the project root, serve the production build of your site:
-
-```sh
-gatsby serve
-```
 
 ### Styles
 
