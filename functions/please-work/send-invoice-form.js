@@ -1,4 +1,5 @@
 const { STRIPE_DEFAULT_PRICE_PLAN, STRIPE_SECRET_KEY } = process.env
+const stripe = require("stripe")(STRIPE_SECRET_KEY)
 
 exports.handler = async (event, context) => {
     if (event.httpMethod !== 'POST') {
@@ -7,7 +8,6 @@ exports.handler = async (event, context) => {
     let payload = JSON.parse(event.body).payload
     const { email } = payload.data;
     console.log(email);
-    const stripe = require("stripe")(STRIPE_SECRET_KEY)
 
     // create a new customer in Stripe
     const customer = await stripe.customers.create({ email: email });
