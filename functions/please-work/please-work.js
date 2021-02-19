@@ -6,7 +6,8 @@ exports.handler = async (event, context) => {
         return { statusCode: 405, body: 'Method Not Allowed', headers: { 'Allow': 'POST' } }
     }
     let payload = JSON.parse(event.body).payload
-    const { email } = payload.data;
+    console.log(payload);
+    const { email } = payload;
     console.log(email);
 
     // create a new customer in Stripe
