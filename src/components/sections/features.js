@@ -7,43 +7,38 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
+      <SectionTitle>Why we need a landing page</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>Conversion</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            Better Conversion
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Security</FeatureTitle>
           <FeatureText>
             Your data is always safe with us as we use the latest security
-            protocols.
+            protocols from Stripe and Netlify
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Automation</FeatureTitle>
           <FeatureText>
-            Create smart automated workflows and triggers for your money.
+            Easily collect payment from invoice with Stripe
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Aggregation</FeatureTitle>
+          <FeatureTitle>Cost</FeatureTitle>
           <FeatureText>
-            Easily link up to 5 banks to your finance account.
+            Save money on servers and focus on your business (free up to 100 submissions per month)
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Payments</FeatureTitle>
           <FeatureText>Send money to friends and family with ease.</FeatureText>
         </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
-          <FeatureText>
-            High interest and rewards for hitting your goals.
-          </FeatureText>
-        </FeatureItem>
+
       </FeaturesGrid>
     </StyledContainer>
   </Section>

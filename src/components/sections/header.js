@@ -34,7 +34,10 @@ const Header = () => {
               We're building next generation personal finance tools. Sign up to
               get early access.
             </h2>
-            <HeaderForm netlify name="cta" data-netlify-recaptcha="true" method="POST">
+            <HeaderForm
+              netlify name="cta"
+              data-netlify-recaptcha="true"
+              method="POST">
               <input type="hidden" name="form-name" value="cta" />
               <HeaderInput type="email"
                 placeholder="Your email"
@@ -42,8 +45,8 @@ const Header = () => {
                 id="email"
                 required placeholder="Your email" />
 
-              <SubmitButton type="submit">Subscribe Now</SubmitButton>
               <div data-netlify-recaptcha="true"></div>
+              <SubmitButton type="submit">Subscribe Now</SubmitButton>
             </HeaderForm>
             <FormSubtitle>
               Already have a beta account?{" "}

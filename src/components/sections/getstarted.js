@@ -6,9 +6,9 @@ import { Container, Section } from "../global"
 const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
-      <GetStartedTitle>Be the first to get the beta</GetStartedTitle>
-      <TryItButton>Get early access</TryItButton>
-      <Subtitle>No credit card required.</Subtitle>
+      <GetStartedTitle>Get your own landing page to collect payment</GetStartedTitle>
+      <TryItButton>Get Quotation</TryItButton>
+      <Subtitle>Suitable for facebook ads</Subtitle>
     </GetStartedContainer>
   </StyledSection>
 )
