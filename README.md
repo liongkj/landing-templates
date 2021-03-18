@@ -2,11 +2,22 @@
 ## ☁️ A simple one page landing site starter for video tutorial or lessons subscription collection.
 
 ### TODO
-[ ] Learn how to make multilingual
-[ ] Move stripe form handle to cloudflare workers? (netlify form 100 submission/month limit)
+
+- [ ] Learn how to make multilingual
+
+- [ ] Move stripe form handle to cloudflare workers? (netlify form 100 submission/month limit)
+
+### Send invoice emails with Netlify Forms and Stripe subscription
+
+[Form Handling with Gatsby.js V2 and Netlify](https://codebushi.com/form-handling-gatsby-netlify/)
+
+[Stripe](https://stripe.com)
+
+[Netlify Functions](https://www.netlify.com/products/functions/)
 
 [Live Demo: https://landing-cta.netlify.app/ ](https://landing-cta.netlify.app/)
-You will receive a live working stripe email. 
+
+Note: You will receive a live working stripe email. 
 
 <img src="src/images/gatsby-starter-saas-marketing-full-page.png?raw=true" width="600" alt="Gatsby Starter Saas Marketing Full Screen Image"/>
 
@@ -25,11 +36,6 @@ To link a navigation item to a section simply add an id and string value to a se
 ### Deploying to Netlify
 
 [Deployment Guide](http://gatsbyjs.org/docs/deploying-to-netlify)
-
-### Send invoice emails with Netlify Forms and Stripe subscription
-
-[Form Handling with Gatsby.js V2 and Netlify](https://codebushi.com/form-handling-gatsby-netlify/)
-[Stripe](https://stripe.com)
 
 ### Netlify form usage example
 
