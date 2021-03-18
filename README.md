@@ -1,6 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d143c579-924c-4e3e-9b87-2d7659c2d64b/deploy-status)](https://app.netlify.com/sites/landing-cta/deploys)
 ## ☁️ A simple one page landing site starter for video tutorial or lessons subscription collection.
 
+Learning Project for gatsbyjs and serverless functions
+
 ### TODO
 
 - [ ] Learn how to make multilingual
@@ -14,6 +16,8 @@
 [Stripe](https://stripe.com)
 
 [Netlify Functions](https://www.netlify.com/products/functions/)
+
+### Demo
 
 [Live Demo: https://landing-cta.netlify.app/ ](https://landing-cta.netlify.app/)
 
