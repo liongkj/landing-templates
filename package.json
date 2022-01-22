@@ -18,7 +18,7 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.3.24",
     "gatsby-transformer-sharp": "^2.5.13",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
